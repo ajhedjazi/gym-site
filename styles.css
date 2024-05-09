@@ -21,7 +21,7 @@ body {
 }
 
 .hero-section {
-    background: url('images/gym-hero.jpg') no-repeat center center; /* Adjusted path */
+    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=action-athlete-barbell-841130.jpg&fm=jpg') no-repeat center center; /* Adjusted path */
     background-size: cover;
     height: 100vh; /* Full height */
     display: flex;
