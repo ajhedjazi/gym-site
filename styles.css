@@ -82,3 +82,9 @@ body {
 .footer i {
     transition: color 0.3s; /* Smooth transition for color change */
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adds space between images */
+}
