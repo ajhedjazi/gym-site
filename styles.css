@@ -88,3 +88,11 @@ body {
     height: auto;
     margin-bottom: 20px; /* Adds space between images */
 }
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Adds more space between paragraphs */
+}
+
+.img-fluid.mb-4 {
+    margin-bottom: 1.5rem; /* Adds consistent space below images */
+}
