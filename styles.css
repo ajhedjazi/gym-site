@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffd700; /* Gold text inside hero image */
+    color: #ffd700; /* Gold text inside hero image */   
 }
 
 .hero-text {
