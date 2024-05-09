@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Professional and modern font */
+    color: #e0d0b0; /* Light gold color */
+    background-color: #000; /* Black background for contrast */
+}
+
+.navbar {
+    background-color: #222; /* Dark gray that will almost look black */
+    border-bottom: 2px solid #ffd700; /* Gold border for a stylish separation */
+    min-height: 60px; /* Set minimum height to ensure consistency */
+    display: flex;
+    align-items: center; /* Centers the navbar content vertically */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffd700 !important; /* Gold text for navigation */
+}
+
+.nav-link:hover {
+    background-color: #333;
+}
+
+.hero-section {
+    background: url('images/gym-hero.jpg') no-repeat center center; /* Adjusted path */
+    background-size: cover;
+    height: 100vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffd700; /* Gold text inside hero image */
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the text box */
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ffd700;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e0c060; /* Lighter gold on hover */
+}
+
+.container {
+    color: #fff; /* White text for content */
+    text-align: center;
+}
+
+.footer {
+    background-color: #222;  /* Dark background for the footer */
+    color: #fff;
+    margin-top: 0;  /* Ensure no margin at the top */
+    padding: 8px 16px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 40px;  /* Increased spacing between icons */
+    font-size: 28px; /* Larger icon size */
+}
+
+.social-links a:hover {
+    color: #ffd700; /* Change color on hover */
+    text-decoration: none;
+}
+
+.footer i {
+    transition: color 0.3s; /* Smooth transition for color change */
+}
