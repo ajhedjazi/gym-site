@@ -84,49 +84,32 @@ body {
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px; /* Adds space between images */
+    height: 200px; /* Sets a fixed height for all images */
+    width: 100%; /* Ensures width is responsive */
+    object-fit: cover; /* Ensures images cover the area without distorting */
 }
 
-.mb-4 {
-    margin-bottom: 1.5rem; /* Adds more space between paragraphs */
-}
-
-.img-fluid.mb-4 {
-    margin-bottom: 1.5rem; /* Adds consistent space below images */
-}
-
-.text-image-pair {
+.col-md-6 {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    align-items: center; /* Centers the text vertically relative to the image */
+    justify-content: center; /* Centers the content horizontally if there's additional space */
 }
 
-.text-image-pair p {
-    flex: 1; /* Allows the text to fill the space equally */
-    margin-right: 20px; /* Provides some space between the text and the image */
-}
-
-.text-image-pair img {
-    width: 100%;
-    max-width: 400px; /* Limit the image width to not overpower the text */
-    height: auto;
-    flex-shrink: 0; /* Prevents the image from shrinking */
+p {
+    text-align: left; /* Ensures text alignment is consistent */
 }
 
 @media (max-width: 768px) {
-    .text-image-pair {
+    .img-fluid {
+        height: 150px; /* Adjusts the image height on smaller devices */
+    }
+
+    .col-md-6 {
         flex-direction: column;
+        text-align: center; /* Aligns text center on smaller screens */
     }
 
-    .text-image-pair p {
-        margin-right: 0; /* Remove the margin on smaller screens */
-    }
-
-    .text-image-pair img {
-        max-width: 100%; /* Allows the image to adjust to the container width */
+    p {
+        text-align: center; /* Ensures text is centered below the image on smaller screens */
     }
 }
