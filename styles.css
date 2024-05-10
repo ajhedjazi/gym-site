@@ -84,7 +84,7 @@ body {
 }
 
 .img-fluid {
-    height: 200px; /* Sets a fixed height for all images */
+    height: 190px; /* Sets a fixed height for all images */
     width: 100%; /* Ensures width is responsive */
     object-fit: cover; /* Ensures images cover the area without distorting */
 }
@@ -93,7 +93,6 @@ body {
     display: flex;
     align-items: center; /* Centers the text vertically relative to the image */
     justify-content: center; /* Centers the content horizontally if there's additional space */
-    margin-bottom: 4px;
 }
 
 p {
@@ -147,14 +146,10 @@ body, p {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center; /* Centers all text in the membership plan */
     color: #333; /* Dark color for text to ensure readability */
-    margin-top: 40px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     height: 100%; /* Ensures the plan uses all available vertical space in the flex container */
-}
-
-.membership-plan h2, .membership-plan p {
-    margin-bottom: 20px; /* Adds spacing below each section for clarity */
 }
 
 .membership-plan p {
@@ -164,8 +159,43 @@ body, p {
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Additional styling */
+}
 
+.membership-form h2 {
+    text-align: center;
+}
 
+.form-group {
+    margin-bottom: 5px; /* Space between form fields */
+}
+
+.form-control {
+    background-color: #fff; /* White background for inputs */
+    color: #333; /* Dark grey text for readability */
+    border: 1px solid #ccc; /* Subtle border */
+}
+
+.membership-form {
+    padding: 20px 0; /* Top and bottom padding */
+    border-top: 1px solid #ddd; /* A subtle top border for a visual separation from content */
+    color: #333; /* Dark grey text for readability */
+}
+
+.btn-primary {
+    background-color: #004d99; /* Primary button color */
+    color: #fff; /* White text on buttons for contrast */
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Darker blue on hover for interactive feedback */
+}
 
 
 
