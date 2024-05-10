@@ -1,39 +1,21 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Elevate Fitness Gym Website
+Overview
+The Elevate Fitness website serves as a comprehensive digital platform for both existing gym members and prospective clients. It offers detailed information about gym services, membership plans, and the gym's unique community and facilities. The website is designed to enhance user engagement and streamline the process of membership management and acquisition.
 
-Welcome,
+Purpose
+This website aims to provide an informative, visually appealing, and easy-to-navigate resource for individuals seeking to improve their fitness and well-being. It supports users in making informed decisions about their health and fitness regime by offering detailed descriptions of available services and facilities.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
+Home Page: Introduces the gym with a hero image as a landing page, and the company tagline.
+About Page: Details the gym's mission, philosophy, and team, providing a deeper insight into the gym's environment.
+Membership Page: Lists available membership plans with detailed benefits, pricing, and a no-hassle sign-up form.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+UX design principles have been adhered to when creating the site. The website is structured to ensure ease of use. Navigation is intuitive, with a consistent layout across pages. Key information such as membership details and contact information is easy to find, enhancing the overall user experience. Accessibility is a priority, with the website adhering to relevant guidelines. Text contrasts, alt text for images, and easy to navigate interfaces ensure that the website is usable for people with bespoke requirements. 
 
-## Codeanywhere Reminders
+Technologies Used
+HTML5: For structuring content and creating a semantic, accessible markup.
+CSS3 and Bootstrap 4: For responsive design and styling.
+Git: For version control and collaborative development.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Contribution
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
