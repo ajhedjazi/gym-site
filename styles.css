@@ -120,25 +120,53 @@ body, p {
     line-height: 1.6; /* Adjust line height for better readability */
 }
 
-* {
-    margin: 0;
+.membership-plan ul {
+    width: 100%; /* Ensures the list takes full width of its parent */
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+.list-group-item {
+    background-color: #f8f9fa; /* Light grey background for list items */
+    color: #333; /* Ensures text inside list items is visible */
+    padding: 10px 15px; /* Proper padding for aesthetics */
+    border: 1px solid #ddd; /* Subtle border for list items */
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        max-width: 100%; /* Each plan card takes full width on small screens */
+        flex: 0 0 100%;
+        margin-bottom: 20px; /* Adds space between collapsed columns */
+    }
 }
 
 .membership-plan {
-    background-color: #fff;
+    background-color: #fff; /* Ensures a light background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
+    text-align: center; /* Centers all text in the membership plan */
+    color: #333; /* Dark color for text to ensure readability */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures the plan uses all available vertical space in the flex container */
+}
+
+.membership-plan h2, .membership-plan p {
+    margin-bottom: 20px; /* Adds spacing below each section for clarity */
+}
+
+.membership-plan p {
+    font-size: 18px; /* Increase font size for better visibility */
+    color: #444; /* Slightly lighter than the main text for visual hierarchy */
+    font-weight: bold; /* Makes the price more prominent */
     text-align: center;
 }
 
-.membership-plan h2 {
-    color: #ffd700;
-}
 
-.membership-plan p, .membership-plan li {
-    color: #333;
-}
+
+
+
+
+
