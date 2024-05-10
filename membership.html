@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,24 +12,76 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Elevate Fitness</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="membership.html">Membership</a>
-                </li>
-            </ul>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html">Elevate Fitness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="membership.html">Membership</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="container mt-5 pt-5">
+            <h1>Membership Plans</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="membership-plan">
+                        <h2>Basic Plan</h2>
+                        <p>$19 per month</p>
+                        <ul>
+                            <li>Access to gym equipment</li>
+                            <li>One fitness class per month</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="membership-plan">
+                        <h2>Standard Plan</h2>
+                        <p>$29 per month</p>
+                        <ul>
+                            <li>Access to gym equipment</li>
+                            <li>Five fitness classes per month</li>
+                            <li>One personal training session</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="membership-plan">
+                        <h2>Premium Plan</h2>
+                        <p>$49 per month</p>
+                        <ul>
+                            <li>Unlimited gym access</li>
+                            <li>Unlimited fitness classes</li>
+                            <li>Weekly personal training sessions</li>
+                            <li>Access to spa facilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <footer class="footer">
+        <div class="container">
+                <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank"> 
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
-    </nav>
+    </footer>

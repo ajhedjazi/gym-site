@@ -120,3 +120,25 @@ body, p {
     line-height: 1.6; /* Adjust line height for better readability */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+.membership-plan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.membership-plan h2 {
+    color: #ffd700;
+}
+
+.membership-plan p, .membership-plan li {
+    color: #333;
+}
