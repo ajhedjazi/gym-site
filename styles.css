@@ -4,6 +4,12 @@ body {
     background-color: #000; /* Black background for contrast */
 }
 
+.contact {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 0;
+}
+
 .navbar {
     background-color: #222; /* Dark gray that will almost look black */
     border-bottom: 2px solid #ffd700; /* Gold border for a stylish separation */
@@ -87,6 +93,7 @@ body {
     height: 190px; /* Sets a fixed height for all images */
     width: 100%; /* Ensures width is responsive */
     object-fit: cover; /* Ensures images cover the area without distorting */
+    float: left;
 }
 
 .col-md-6 {
@@ -95,8 +102,52 @@ body {
     justify-content: center; /* Centers the content horizontally if there's additional space */
 }
 
+.container-fluid {
+    padding-left: 0 !important;  /* Removes padding from the left of the container */
+}
+
+.col-md-6 {
+    padding-left: 0 !important;  /* Ensures columns start right at the edge of their container */
+}
+
 p {
     text-align: left; /* Ensures text alignment is consistent */
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners for the text box */
+    float: right;
+    }
+    
+
+.main-content {
+    flex: 1; /* Takes up the remaining space not used by the timetable */
+    padding-right: 20px; /* Optional: Adds some padding between the content and timetable */
+}
+
+.class-timetable {
+    padding: 40px; /* Padding for the timetable */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .class-timetable {
+        order: 1; /* Puts the timetable below the main content on small screens */
+    }
+
+    .main-content {
+        order: 2;
+    }
 }
 
 @media (max-width: 768px) {
@@ -214,4 +265,35 @@ body, p {
         width: auto; /* Auto width for button on large screens */
         padding: 10px 20px; /* Comfortable padding around the button */
     }
+}
+
+.table-container {
+    width: 100%; /* Use full width to help with centering */
+    overflow-x: auto; /* Allows table to be scrollable horizontally if it exceeds the screen width */
+    display: flex;
+    justify-content: center; /* Centers the table horizontally */
+}
+
+table {
+    border-collapse: collapse; /* Eliminates space between borders */
+    width: 20%; /* Adjust based on your design needs */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light grey border for visibility */
+    padding: 8px; /* Padding for content within cells */
+    text-align: center; /* Center text within cells */
+    white-space: nowrap;
+}
+
+thead th {
+    background-color: #f4f4f4; /* Light background for header row */
+    color: #003366;
+}
+
+footer p {
+    text-align: center;
+    margin: auto;
 }
