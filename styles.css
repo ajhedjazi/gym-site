@@ -93,6 +93,7 @@ body {
     display: flex;
     align-items: center; /* Centers the text vertically relative to the image */
     justify-content: center; /* Centers the content horizontally if there's additional space */
+    margin-bottom: 4px;
 }
 
 p {
@@ -113,3 +114,9 @@ p {
         text-align: center; /* Ensures text is centered below the image on smaller screens */
     }
 }
+
+body, p {
+    font-size: 20px; /* Increase base font size for paragraph */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
