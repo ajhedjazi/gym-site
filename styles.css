@@ -159,14 +159,6 @@ body, p {
     text-align: center;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* Additional styling */
-}
-
 .membership-form h2 {
     text-align: center;
 }
@@ -218,25 +210,8 @@ footer {
         width: 50%; /* More narrow container for large screens */
     }
 
-    .form-group label, .form-group input, .form-group select {
-        display: inline-block; /* Aligning labels and fields side by side */
-        vertical-align: middle; /* Aligning vertically */
-    }
-
-    .form-group label {
-        width: 20%; /* Label width fixed */
-    }
-
-    .form-group input, .form-group select {
-        width: 78%; /* Input/select field width */
-        margin-left: 2%; /* Small gap between label and field */
-    }
-
     .btn-primary {
         width: auto; /* Auto width for button on large screens */
         padding: 10px 20px; /* Comfortable padding around the button */
     }
 }
-
-
-
