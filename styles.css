@@ -197,6 +197,46 @@ footer {
     background-color: #003366; /* Darker blue on hover for interactive feedback */
 }
 
+/* Base styles are for mobile-first approach */
+
+.form-control, .btn-primary {
+    width: 100%; /* Full-width on smaller devices */
+    padding: 10px; /* Adequate padding for touch interactions */
+}
+
+/* Media queries for tablets and desktops */
+
+@media (min-width: 768px) { /* Adjustments for tablets */
+    .membership-form .container {
+        width: 75%; /* Narrower container for medium screens */
+        margin: auto; /* Centering the container */
+    }
+}
+
+@media (min-width: 992px) { /* Adjustments for desktops */
+    .membership-form .container {
+        width: 50%; /* More narrow container for large screens */
+    }
+
+    .form-group label, .form-group input, .form-group select {
+        display: inline-block; /* Aligning labels and fields side by side */
+        vertical-align: middle; /* Aligning vertically */
+    }
+
+    .form-group label {
+        width: 20%; /* Label width fixed */
+    }
+
+    .form-group input, .form-group select {
+        width: 78%; /* Input/select field width */
+        margin-left: 2%; /* Small gap between label and field */
+    }
+
+    .btn-primary {
+        width: auto; /* Auto width for button on large screens */
+        padding: 10px 20px; /* Comfortable padding around the button */
+    }
+}
 
 
 
